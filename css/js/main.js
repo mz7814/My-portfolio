@@ -1,4 +1,4 @@
-// add class actuve to header on scroll
+// add class actuve to header on scroll //
 
 let header = document.querySelector("header")
 
