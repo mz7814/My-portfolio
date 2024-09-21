@@ -511,17 +511,32 @@ header nav .icons a:hover{
     scale: 1.1;
 }
 
+/* End Contact */
 
 
 
 
+/* Start Responsive */
 
+@media (max-width:1250px){
+    .container{
+        width: 90%;
+    }
+}
 
-
-
-
-
-/* End Projects */
+@media (max-width:1000px){
+    header nav .links{
+        position: fixed;
+        top: 0;
+        flex-direction: column;
+        width: 400px;
+        background-color: var(--black_color);
+        left: 0;
+        padding: 50px 0;
+        height: 100%;
+        border-right: 1px solid var(--border-color);
+    }
+}
 
 
 
